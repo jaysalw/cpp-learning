@@ -4,6 +4,8 @@
 using namespace std;
 
 int main() {
-    // Logic here.
+    vector <int> vec(3, 100);
+
+    // more logic will go here.
     return 0;
 }
