@@ -7,6 +7,7 @@ int main(){
     int number ;    number = 100 ;
     float decimal = 7.5 ;
     double pi = 3.14159 ;
-    bool isTrue = false ;\
+    bool isTrue = false ;
+    
     return 0;
 }
