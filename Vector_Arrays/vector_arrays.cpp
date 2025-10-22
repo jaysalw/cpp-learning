@@ -15,5 +15,6 @@ int main() {
     cout << "Final element: " << vec.back() << endl;
     vec.clear();
     cout << "Vector size: " << vec.size() << endl;
+    cout << "First element: " << vec.front() << endl;
     return 0;
 }
