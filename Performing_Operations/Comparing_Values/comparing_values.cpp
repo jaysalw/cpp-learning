@@ -7,7 +7,8 @@ int main() {
     char cap = 'A', low = 'a';
 
     cout << "Equality comparisons:\t";
-    cout << "( == 0) " << (nil == num) << "true";
+    cout << "( == 0) " << (nil == num) << "(true)";
+    cout << "(A == a) " << (cap == low) << "(false)";
 
     return 0;
 }
