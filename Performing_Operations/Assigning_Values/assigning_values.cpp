@@ -8,7 +8,7 @@ int main() {
     cout << "Assigning Values:" << endl;
     cout << "a = " << (a = 8) << " b = " << (b = 4);
 
-    cout << endl << "Add & Assign:\t\t" ;
+    cout << endl << "Add & Assignn:\t\t" ;
     cout << endl << "a += b:\t" << (a += b);
     cout << endl << "Subtract & Assign:\t";
     cout << endl << "a -= b:\t" << (a -= b);
