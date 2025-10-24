@@ -11,6 +11,12 @@ int main() {
     cout << "\t50 int size: " << sizeof(nums) << endl;
     cout << "short int zize: " << sizeof(number) << endl;
     cout << "unsigned int size: " << sizeof(max) << endl;
+
+    cout << "double size: " << sizeof(pi) << endl;
+    cout << "float size: " << sizeof(decimal) << endl;
+    cout << "char size: " << sizeof(letter);
+    cout << "\t50 char size: " << sizeof(letters) << endl;
+    cout << "bool size: " << sizeof(isTrue) << endl;
     
     return 0;
 }
