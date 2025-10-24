@@ -11,6 +11,8 @@ int main() {
     cout << (( a % 2 != 0) ? " Odd" : " Even");
     cout << ((a > b) ? "A is greater" : "B is greater");
 
+    cout << endl;
+
     cout << "Variable b value is: ";
     cout << ((b != 1) ? "Not One" : (b == 2) ? "Two" : "One");
     cout << (( b % 2 != 0) ? " Odd" : " Even");
