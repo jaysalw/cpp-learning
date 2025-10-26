@@ -15,6 +15,10 @@ int main() {
 
     area = computeArea(num);
     cout << "Area of circle: " << area << " sq ft" << endl;
+    area = computeArea(num, num);
+    cout << "Area of square: " << area << " sq ft" << endl;
+    area = computeArea('T', num, num);
+    cout << "Area of triangle: " << area << " sq ft" << endl;
     
     return 0;
 }
