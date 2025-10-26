@@ -8,6 +8,14 @@ float computeArea(float, float);
 float computeArea(char, float, float);
 
 int main() {
+    float num, area;
+
+    cout << "Enter dimension in feet: ";
+    cin >> num;
+
+    area = computeArea(num);
+    cout << "Area of circle: " << area << " sq ft" << endl;
+    
     return 0;
 }
 
@@ -18,4 +26,8 @@ float computeArea(float diameter) {
 
 float computeArea(float width, float height) {
     return(width * height);
+}
+
+float computeArea(char letter, float width, float height) {
+    return((width / 2) * height);
 }
