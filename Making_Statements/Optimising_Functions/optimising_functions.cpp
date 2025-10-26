@@ -6,7 +6,7 @@ int computeFactorials(int, int);
 int factorial(int);
 
 int main() {
-    computeFactorials(1, 5);
+    computeFactorials(1, 8);
     return 0;
 }
 
