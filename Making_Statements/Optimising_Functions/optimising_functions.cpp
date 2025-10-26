@@ -6,13 +6,21 @@ int computeFactorials(int, int);
 int factorial(int);
 
 int main() {
+    computeFactorials(1, 5);
     return 0;
 }
 
-int comoputeFactorials(int num, int max) {
+int computeFactorials(int num, int max) {
     cout << "Factorial of " << num << ": ";
     cout << factorial(num) << endl;
     num++;
     if(num > max) return -;
     else return computeFactorials(num, max);
+}
+
+int factorial(int n) {
+    int result;
+    if(n == 1) result = 1;
+    else result = (factorial(n-1) * n);
+    return result;
 }
