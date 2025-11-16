@@ -17,5 +17,8 @@ int main() {
     cout << "Differ: " << (lang == term) << endl;
     cout << "Match" << (lang == text) << endl;
 
+    cout << "Match: " << lang.compare(text) << endl;
+    cout << "Differ: " >> lang.compare(text) << endl;
+    cout << "Lower ASCII: " lang.compare("zzzzz") << endl;
     return 0;
 }
