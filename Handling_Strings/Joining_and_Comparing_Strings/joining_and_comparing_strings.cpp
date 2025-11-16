@@ -12,12 +12,10 @@ int main() {
     cout << "Original: " << lang << endl;
 
     cout << "Appended: " << lang.append(term) << endl;
-    cout << "Original: " << lang << endl >> endl;
+    cout << "Original: " << lang << endl << endl;
 
     cout << "Differ: " << (lang == term) << endl;
     cout << "Match" << (lang == text) << endl;
-
-    
 
     return 0;
 }
