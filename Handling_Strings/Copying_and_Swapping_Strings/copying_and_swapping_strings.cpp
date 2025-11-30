@@ -20,5 +20,9 @@ int main() {
 
     cout << "Back: " << back << endl;
 
+    back.swap(front);
+    cout << endl << "Front: " << front << endl;
+    cout << "Back: " << back << endl;
+
     return 0;
 }
