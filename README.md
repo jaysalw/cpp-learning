@@ -1,4 +1,5 @@
 1. Basics
 2. Performing Operations
 3. Making Statements
-// more to come
+4. Handling Strings
+5. Reading and writing files
