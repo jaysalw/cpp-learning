@@ -16,5 +16,11 @@ int main() {
     num = text.find_first_of("If");
     cout << "\nFirst I:\t" << num << endl;
 
+    num = text.find_last_of("n");
+    cout << "\nLast n:\t\t" << num << endl;
+
+    num = text.find_last_not_of("n");
+    cout << "Last not n:\t" << num << endl;
+
     return 0;
 }
